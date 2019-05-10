@@ -1,5 +1,6 @@
 import React from "react";
 import "./Register.css";
+import { NavLink } from "react-router-dom";
 
 export class Register extends React.Component {
     render() {
@@ -23,9 +24,10 @@ export class Register extends React.Component {
                             <label className="label">Password</label>
                             <input type="password" className="input"/>
                             <br></br>
+                            <br></br>
                             <button className="greenbutton">SIGN IN</button>
                         </form>
-                            <p className="pRegister">Or if you don't have an account, <a className="aRegister" href=""/>Register</p>
+                            <p className="pRegister">Or if you already have an account, <NavLink className="aRegister" to="/">Log In</NavLink></p>
                     </div>
                 </div>
             </section>

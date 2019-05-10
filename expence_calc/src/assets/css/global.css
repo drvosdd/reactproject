@@ -73,16 +73,6 @@ html, body {
     border-radius: 5px;
 }
 
-/* p {
-    margin: 4% 0% 0% 10%;
-    color: #8D8D8D;
-}
-
-a {
-    text-decoration: none;
-    color: #8D8D8D;
-} */
-
 
 
 .header {
@@ -121,7 +111,7 @@ a {
 .avatar {
     float: left;
     margin-left: 80px;
-     
+   
     margin-top: 25px;
 }
 

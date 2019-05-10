@@ -112,7 +112,8 @@ html, body {
 .avatar {
     float: left;
     margin-left: 80px;
-     
+    height:40px;
+    width: 40px;
     margin-top: 25px;
 }
 
