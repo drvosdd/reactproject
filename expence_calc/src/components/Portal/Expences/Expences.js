@@ -2,24 +2,13 @@ import React from "react";
 import "./Expences.css";
 import { NavLink } from "react-router-dom";
 import avatar from "../../../assets/images/avatar.jpg";
+import { Header } from "../Header/Header";
 
 export class Expences extends React.Component {
     render() {
         return (
             <section id="login"> 
-                <div className="header">
-                    <button className="greenwhitebutton">PRODUCTS</button>
-                    <button className="ghostbutton">EXPENSES</button>
-                    <div className="ap">
-                        <div className="avatar">
-                            <img src={avatar} width="40px"/>
-                        </div>
-                        <div className="potpis">
-                            <p>Dejan</p>
-                        </div>
-                    </div>
-                </div>
-
+            <div><Header /></div>
                 <div className="naslov">
                     <div className="expences">
                         Expenses

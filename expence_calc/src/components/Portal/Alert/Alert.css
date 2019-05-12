@@ -1,0 +1,388 @@
+html, body {
+    background: #E5EDF5;
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.register{
+    margin: auto;
+    width: 25%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #8D8D8D;
+}
+
+.add_margin {
+    height: auto;
+    margin-top: 100px;
+}
+
+.form {
+    background: #fff;
+    padding: 10%;
+    margin: auto;
+    border-radius: 5px;
+}    
+
+.form3 {
+    background: #fff;
+    padding: 30px 90px 30px 30px;
+   
+    margin: auto;
+    border-radius: 5px;
+}
+
+.label {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #8D8D8D;
+}
+
+.pRegister {
+    text-align: center;
+    color: #8D8D8D;
+}
+
+.aRegister{
+    text-decoration: none;
+    color: #8D8D8D;
+}
+
+.input {
+    width: 100%;
+    margin: 15px 0 15px 0;
+    background: #fff;
+    border: 2px solid;
+    border-color: #C6C6C6;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.greenbutton {
+    width: 100%;
+    font-size: 15px;
+    color: #fff;
+    background: #1DD1A1;
+    height: 50px;
+    box-shadow: 0px 0px 16px
+    rgba(0, 0, 0, 0.17);
+    border-radius: 5px;
+}
+
+
+
+
+.header {
+    height: 85px;
+    background: #fff; 
+    padding: auto;
+}
+
+.greenwhitebutton {
+    font-size: 15px;
+    color: #1DD1A1;
+    background: transparent;
+    border-radius: 5px; 
+    margin-left: 10px;
+    height: 30px;
+    width: 150px;
+    border-color: #1DD1A1;
+    margin-top: 30px;
+}
+
+.ghostbutton {
+    font-size: 15px;
+    background: Transparent;
+    border: 2px solid;
+    border-color: #576574;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 30px;
+    width: 150px;
+}
+
+.ap {
+    float: right;
+}
+
+.avatar {
+    float: left;
+    margin-left: 80px;
+   
+    margin-top: 25px;
+}
+
+.avatar img {
+    border-radius: 50%;
+}
+
+#login {
+    width: 100%;
+    height: 100%;
+}
+.potpis {
+    float: right;
+    margin-top: 15px;
+    margin-right: 30px;
+    margin-left: 15px;
+    color: #8D8D8D; 
+    font-size: 18px;
+    color: #4D4D4D;
+}
+
+.wrapper {
+    width: 870%;
+    height: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.newproduct {
+    width: 500px;
+    margin-left: 95px;
+    float: left;
+
+}
+
+.newproduct2 {
+    width: 370px;
+    
+    float: left;
+}
+
+.form2 {
+    background: lightgray;
+    padding-bottom: 227px;
+    padding-left: 70px;
+  
+}    
+
+.addPlus {
+    padding-top: 260px;
+    padding-left: 70px;
+}
+
+#logo {
+    color: gray;
+    font-size: 50px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.naslov {
+    margin: auto;
+    margin-top:20px;
+    width: 90%;
+    
+}
+
+.products {
+    font-size: 22px;
+    font-weight: bold;
+    color: #000000;
+    display: inline;
+    
+   
+}
+
+.expences {
+    font-size: 22px;
+    font-weight: bold;
+    color: #000000;
+    display: inline;
+    
+    
+}
+
+.myList {
+    float: right;
+    display: flex;
+    margin-bottom: 10px;
+    line-height: 10px;
+    
+    /* margin-right: 50px; */
+    /* width: 30%;
+    margin-top: -45px; */ 
+}
+
+.selector {
+    height: 35px;
+    background: #fff;
+    border: 2px solid;
+    border-color: #C6C6C6;
+    border-radius: 5px;
+    margin-left: 10px;
+    
+    
+}
+
+th {
+    padding-top: 30px;
+    padding-right: 30px;
+    font-size: 16px;
+    color: #404040;
+    padding-bottom: 15px;
+    border-color: #707070;
+    width: 200px;
+    border-bottom: 1px solid;
+}
+
+.tableBold {
+    border-spacing: 0 5px;
+    width:90%;
+    margin: auto;  
+    margin-bottom: 25px;  
+}
+
+.tableWhite {
+    font-size: 16px;
+    color: #575757;
+    background: #fff;
+    padding: 20px;
+    padding-top: 5px;
+    border-spacing: 0 5px;
+    margin-bottom: 10px;
+}
+
+td {
+    padding-top: 30px;
+    padding-left: 70px;
+    font-size: 16px;
+    color: #404040;
+    padding-bottom: 15px;
+    border-color: #707070;
+}
+
+.twobuttons {
+    bottom: 100px;
+    right: 100px; 
+    position: fixed;
+    width: 250px;
+}
+
+.greenbuttonproducts {
+    width: 250px;
+    font-size: 15px;
+    color: #fff;
+    background: #1DD1A1;
+    height: 50px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.darkbuttonproducts {
+    width: 250px;
+    font-size: 15px;
+    color: #fff;
+    background: #576574;
+    height: 50px;
+    box-shadow: 0px 0px 16px
+    rgba(0, 0, 0, 0.17);
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.twobuttonsexpences {
+    top: 120px;
+    margin-left: 90px; 
+    width: 830px;
+}
+
+.greenbuttonghost {
+    width: 250px;
+    font-size: 15px;
+    color: #fff;
+    background: #C9E5DD;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: -11px;
+}
+
+.myListExpences {
+    float: right;
+    width: 300px;
+}
+
+.total {
+    height: 100px;
+    width: 100%;
+    background: darkgrey;
+    position: fixed;
+    bottom: 0;
+}
+
+.totalPar {
+    color: white;
+    text-align: right;
+    margin-right: 150px;
+    padding-top: auto;
+    font-size: 30px;
+}
+
+.wrapper2 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.59);
+    position: fixed;
+    display: flex;
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.alert {
+    background: #fff;
+    width: 400px;
+    height: 225px;
+    padding: 40px;
+    margin: auto;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+
+
+.alertWhiteButton {
+    font-size: 15px;
+    font-weight: bold;
+    width: 120px;
+    
+}
+
+.alertDarkButton {
+    font-size: 15px;
+    background: #576574;
+    box-shadow: 0px 0px 16px
+    rgba(0, 0, 0, 0.17);
+    color: #fff;
+    border-radius: 5px; 
+    font-weight: bold;
+    width: 120px;
+}
+
+
+
+.twobuttonsalert {
+    display: flex;
+    margin-left: 170px;
+    vertical-align: middle;
+    text-align: center;
+    
+
+    
+
+}
+
+#app {
+    width: 100%;
+    height: 100%;
+}

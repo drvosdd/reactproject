@@ -2,11 +2,15 @@ import React from "react";
 import "./Products.css";
 import { NavLink } from "react-router-dom";
 import avatar from "../../../assets/images/avatar.jpg";
+import { Header } from "../Header/Header";
 
 export class Products extends React.Component {
     render() {
         return (
-            <section id="login"> 
+            
+            
+            <section id="login">
+            <div><Header /></div> 
                 <div className="naslov">
                     <div className="products">
                         Products
@@ -168,7 +172,7 @@ export class Products extends React.Component {
 
                 <div className="twobuttons">
                     <button className="greenbuttonproducts">NEW CALCULATION</button>
-                    <button className="darkbuttonproducts">NEW PRODUCT</button>
+                    <button className="darkbuttonproducts"> <NavLink to="/new_product"> NEW PRODUCT </NavLink></button>
                 </div>
             </section>
         )
