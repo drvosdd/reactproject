@@ -3,14 +3,15 @@ import "./Products.css";
 import { NavLink } from "react-router-dom";
 import avatar from "../../../assets/images/avatar.jpg";
 import { Header } from "../Header/Header";
+import { Alert } from "../Alert/Alert";
+
 
 export class Products extends React.Component {
     render() {
         return (
             
-            
             <section id="login">
-            <div><Header /></div> 
+            
                 <div className="naslov">
                     <div className="products">
                         Products
@@ -55,115 +56,9 @@ export class Products extends React.Component {
                             <td>Carbonated soft drink</td>
                             <td>19.04.2019</td>
                             <td>75</td>
-                            <td><i className="far fa-edit"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i className="far fa-trash-alt"></i></td>
-                        </tr>
-
-                        <tr className="tableWhite">
-                            <td>Coca-cola</td>
-                            <td>Drink</td>
-                            <td>Carbonated soft drink</td>
-                            <td>19.04.2019</td>
-                            <td>75</td>
-                            <td><i className="far fa-edit"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i className="far fa-trash-alt"></i></td>
-                        </tr>
-
-                        <tr className="tableWhite">
-                            <td>Coca-cola</td>
-                            <td>Drink</td>
-                            <td>Carbonated soft drink</td>
-                            <td>19.04.2019</td>
-                            <td>75</td>
-                            <td><i className="far fa-edit"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i className="far fa-trash-alt"></i></td>
-                        </tr>
-
-                        <tr className="tableWhite">
-                            <td>Coca-cola</td>
-                            <td>Drink</td>
-                            <td>Carbonated soft drink</td>
-                            <td>19.04.2019</td>
-                            <td>75</td>
-                            <td><i className="far fa-edit"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i className="far fa-trash-alt"></i></td>
-                        </tr>
-
-                        <tr className="tableWhite">
-                            <td>Coca-cola</td>
-                            <td>Drink</td>
-                            <td>Carbonated soft drink</td>
-                            <td>19.04.2019</td>
-                            <td>75</td>
-                            <td><i className="far fa-edit"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i className="far fa-trash-alt"></i></td>
-                        </tr>
-
-                        <tr className="tableWhite">
-                            <td>Coca-cola</td>
-                            <td>Drink</td>
-                            <td>Carbonated soft drink</td>
-                            <td>19.04.2019</td>
-                            <td>75</td>
-                            <td><i className="far fa-edit"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i className="far fa-trash-alt"></i></td>
-                        </tr>
-
-                        <tr className="tableWhite">
-                            <td>Coca-cola</td>
-                            <td>Drink</td>
-                            <td>Carbonated soft drink</td>
-                            <td>19.04.2019</td>
-                            <td>75</td>
-                            <td><i className="far fa-edit"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i className="far fa-trash-alt"></i></td>
-                        </tr>
-
-                        <tr className="tableWhite">
-                            <td>Coca-cola</td>
-                            <td>Drink</td>
-                            <td>Carbonated soft drink</td>
-                            <td>19.04.2019</td>
-                            <td>75</td>
-                            <td><i className="far fa-edit"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i className="far fa-trash-alt"></i></td>
-                        </tr>
-
-                        <tr className="tableWhite">
-                            <td>Coca-cola</td>
-                            <td>Drink</td>
-                            <td>Carbonated soft drink</td>
-                            <td>19.04.2019</td>
-                            <td>75</td>
-                            <td><i className="far fa-edit"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i className="far fa-trash-alt"></i></td>
-                        </tr>
-
-                        <tr className="tableWhite">
-                            <td>Coca-cola</td>
-                            <td>Drink</td>
-                            <td>Carbonated soft drink</td>
-                            <td>19.04.2019</td>
-                            <td>75</td>
-                            <td><i className="far fa-edit"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i className="far fa-trash-alt"></i></td>
-                        </tr>
-
-                        <tr className="tableWhite">
-                            <td>Coca-cola</td>
-                            <td>Drink</td>
-                            <td>Carbonated soft drink</td>
-                            <td>19.04.2019</td>
-                            <td>75</td>
-                            <td><i className="far fa-edit"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i className="far fa-trash-alt"></i></td>
-                        </tr>
-
-                        <tr className="tableWhite">
-                            <td>Coca-cola</td>
-                            <td>Drink</td>
-                            <td>Carbonated soft drink</td>
-                            <td>19.04.2019</td>
-                            <td>75</td>
-                            <td><i className="far fa-edit"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i className="far fa-trash-alt"></i></td>
-                        </tr>
-
-                        <tr className="tableWhite">
-                            <td>Coca-cola</td>
-                            <td>Drink</td>
-                            <td>Carbonated soft drink</td>
-                            <td>19.04.2019</td>
-                            <td>75</td>
-                            <td><i className="far fa-edit"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i className="far fa-trash-alt"></i></td>
+                            <td><button className="far fa-edit edit-icon">&nbsp;</button> &nbsp;
+                                <button className="far fa-edit delete-icon"><NavLink to="/alert"> &nbsp; </NavLink></button>
+                            </td>
                         </tr>
 
                     </table>
@@ -174,6 +69,7 @@ export class Products extends React.Component {
                     <button className="greenbuttonproducts">NEW CALCULATION</button>
                     <button className="darkbuttonproducts"> <NavLink to="/new_product"> NEW PRODUCT </NavLink></button>
                 </div>
+                
             </section>
         )
     }

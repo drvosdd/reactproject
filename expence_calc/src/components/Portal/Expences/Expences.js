@@ -8,7 +8,7 @@ export class Expences extends React.Component {
     render() {
         return (
             <section id="login"> 
-            <div><Header /></div>
+            
                 <div className="naslov">
                     <div className="expences">
                         Expenses

@@ -344,10 +344,6 @@ td {
     font-size: 25px;
 }
 
-.alertP {
-    
-}
-
 .alertWhiteButton {
     font-size: 15px;
     font-weight: bold;
@@ -366,25 +362,11 @@ td {
     width: 120px;
 }
 
-.delete {
-    
-    
-
-}
-
-.cancel {
-    
-    
-}
-
 .twobuttonsalert {
     display: flex;
     margin-left: 170px;
     vertical-align: middle;
     text-align: center;
-    
-
-    
 
 }
 
@@ -392,3 +374,16 @@ td {
     width: 100%;
     height: 100%;
 }
+
+.edit-icon {
+    background-image: url("../images/edit.svg");
+    width: 25px;
+    height: 25px;
+}
+
+.delete-icon {
+    background-image: url("../images/trash-alt.svg");
+    width: 25px;
+    height: 25px;
+}
+

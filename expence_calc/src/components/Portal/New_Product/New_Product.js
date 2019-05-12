@@ -8,7 +8,7 @@ export class New_Product extends React.Component {
     render() {
         return (
             <section id="login"> 
-            <div><Header /></div>
+           
                 <div className="naslov">
                     <div className="expences">
                         New Product
@@ -29,6 +29,7 @@ export class New_Product extends React.Component {
                             <label className="label">Product Price</label>
                             <input type="text" className="input"/>
                             <br></br>
+                            <br></br>
                             <button className="greenbutton">SIGN IN</button>
                         </form>
                     </div>
@@ -36,7 +37,7 @@ export class New_Product extends React.Component {
                     <div className="newproduct2">
                         <form className="form2">
                             <div className="addPlus">
-                                <a href=""><i id="logo" className="fas fa-plus-circle"></i></a>
+                                <NavLink className="pluslogo" width="1000px" height="1000px"> P </NavLink>
                             </div>
                     
                             <label className="label">You are creating a new product</label>
