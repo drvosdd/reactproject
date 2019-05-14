@@ -1,8 +1,6 @@
 import React from "react";
 import "./New_Product.css";
 import { NavLink } from "react-router-dom";
-import avatar from "../../../assets/images/avatar.jpg";
-import { Header } from "../Header/Header";
 
 export class New_Product extends React.Component {
     render() {

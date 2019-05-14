@@ -1,7 +1,6 @@
 import React from "react";
 import { Route } from "react-router-dom";
 import "./Portal.css";
-import { NavLink } from "react-router-dom";
 import { Header } from "./Header/Header"
 import { Products} from "./Products/Products"
 import { Expences } from "./Expences/Expences"

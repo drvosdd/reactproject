@@ -1,8 +1,6 @@
 import React from "react";
 import "./Alert.css";
 import { NavLink } from "react-router-dom";
-import avatar from "../../../assets/images/avatar.jpg";
-import { Header } from "../Header/Header";
 import { Products } from "../Products/Products";
 
 export class Alert extends React.Component {

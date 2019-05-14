@@ -1,8 +1,5 @@
 import React from "react";
 import "./Expences.css";
-import { NavLink } from "react-router-dom";
-import avatar from "../../../assets/images/avatar.jpg";
-import { Header } from "../Header/Header";
 
 export class Expences extends React.Component {
     render() {
