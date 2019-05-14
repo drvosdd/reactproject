@@ -1,12 +1,13 @@
 import React from "react";
 import "./New_Product.css";
 import { NavLink } from "react-router-dom";
+import { Header } from "../Header/Header";
 
 export class New_Product extends React.Component {
     render() {
         return (
             <section id="login"> 
-           
+                <Header />
                 <div className="naslov">
                     <div className="expences">
                         New Product

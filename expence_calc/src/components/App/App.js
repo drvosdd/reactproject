@@ -10,7 +10,7 @@ export class App extends React.Component {
             <main id="app">
                 <Route exact path="/" component={Login} />
                 <Route path="/register" component={Register} />
-                <Portal />
+                <Route path="/portal" component={Portal} />
             </main>
         )
     }

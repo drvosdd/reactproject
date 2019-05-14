@@ -1,10 +1,12 @@
 import React from "react";
 import "./Expences.css";
+import { Header } from "../Header/Header";
 
 export class Expences extends React.Component {
     render() {
         return (
             <section id="login"> 
+                <Header />
             
                 <div className="naslov">
                     <div className="expences">
