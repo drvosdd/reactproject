@@ -14,8 +14,8 @@ var productSchema = new Schema ({
     pName: {type: String, required: true},
     pDescription: {type: String},
     pType: {type: String},
-    pDate: {type: Date, required: true},
-    price: {type: Number, required: true},
+    pDate: {type: String, required: true},
+    price: {type: String, required: true},
     userId: {type: String, required: true},
 })
 
