@@ -56,7 +56,7 @@ app.get("/", (req,res) => {
 // })
 
 app.post("/addProduct", (req,res,next) => {
-    if(req.session.email){
+    // if(req.session.email){
         var pName = req.body.pName;
         var pDescription = req.body.pDescription;
         var pType = req.body.pType;
@@ -81,7 +81,7 @@ app.post("/addProduct", (req,res,next) => {
             }
             res.send("Product saved");
         })
-    }
+    });
 
     
 
