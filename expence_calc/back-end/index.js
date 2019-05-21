@@ -100,3 +100,21 @@ app.get("/product", (req,res,next) => {
         res.send(products);
     })
 })
+
+app.put("/products/:id", (req, res, next) => {
+    Product.findByIdAndUpdate(req.params.id, req.body, function(err) {
+      if (err) {
+        return next(err);
+      }
+      res.send("Product updated.");
+    });
+  });
+  
+  app.delete("/products/:id", (req, res, next) => {
+    Product.deleteOne(req.params._id, function(err) {
+      if (err) {
+        return next(err);
+      }
+      res.send("Product deleted.");
+    });
+  });
