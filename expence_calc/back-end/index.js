@@ -10,6 +10,13 @@ const session = require("express-session");
 app.use(session({secret:"test"}));
 app.listen(3000);
 
+let allowCrossDomain = function (req, res, next) {
+    res.header('Access-Control-Allow-Origin', "*");
+    res.header('Access-Control-Allow-Headers', "*");
+    next();
+}
+app.use(allowCrossDomain);
+
 // var u1 = new users.create("28.04.1977","Dejan", "Drvoshanski", "drvosdd@gmail.com", "078", "Macedonia", "password");
 
 app.post("/register", (req, res, next) => {
@@ -92,7 +99,7 @@ app.post("/addProduct", (req,res,next) => {
 //     }
 
 
-app.get("/product", (req,res,next) => {
+app.get("/products", (req,res,next) => {
     Products.find({}, function(err, products){
         if(err) {
             return next(err);
@@ -102,7 +109,7 @@ app.get("/product", (req,res,next) => {
 })
 
 app.put("/products/:id", (req, res, next) => {
-    Product.findByIdAndUpdate(req.params.id, req.body, function(err) {
+    Products.findByIdAndUpdate(req.params.id, req.body, function(err) {
       if (err) {
         return next(err);
       }
@@ -111,10 +118,19 @@ app.put("/products/:id", (req, res, next) => {
   });
   
   app.delete("/products/:id", (req, res, next) => {
-    Product.deleteOne(req.params._id, function(err) {
+    Products.deleteOne(req.params._id, function(err) {
       if (err) {
         return next(err);
       }
       res.send("Product deleted.");
     });
   });
+
+app.get("/users", (req, res, next) => {
+    User.find({}, function (err, user) {
+        if (err) {
+            return next(err);
+        }
+        res.send(users);
+    })
+})
